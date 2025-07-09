@@ -1,0 +1,13 @@
+// SASS file using mixins for margins
+@mixin margin-horizontal($margin-value) {
+  margin-left: $margin-value;
+  margin-right: $margin-value;
+}
+
+body {
+  @include margin-horizontal(10px);
+}
+
+div {
+  @include margin-horizontal(15px);
+}
