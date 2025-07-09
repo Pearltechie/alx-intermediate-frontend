@@ -1,0 +1,16 @@
+Installation Steps for SASS:
+
+1. Created directory structure:
+   - Navigated to alx-intermediate-frontend repository
+   - Created 0x03-sass_scss directory
+   - Navigated into the new directory
+
+2. Installed Node.js (if using Linux installation):
+   - Ran: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   - Exited and reopened terminal
+   - Installed Node.js version 20.16
+
+3. Installed SASS:
+   - Ran: npm install sass -v 3.7.4
+
+4. Verified installation by checking SASS version
